@@ -75,6 +75,7 @@ fof-webhooks:
       services:
         discord: Discord
         slack: Slack
+        wecom: WeCom
         microsoft-teams: Microsoft Teams
 
       actions:

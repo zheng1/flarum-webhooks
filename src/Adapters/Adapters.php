@@ -21,6 +21,7 @@ class Adapters
     private static $adapters = [
         Discord\Adapter::NAME          => Discord\Adapter::class,
         Slack\Adapter::NAME            => Slack\Adapter::class,
+        WeCom\Adapter::NAME            => WeCom\Adapter::class,
         MicrosoftTeams\Adapter::NAME   => MicrosoftTeams\Adapter::class,
     ];
 
